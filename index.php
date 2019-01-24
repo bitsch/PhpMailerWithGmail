@@ -21,7 +21,7 @@ try {
 
     //Recipients
     $mail->setFrom('noreply@home.com', 'Mailer');
-    $mail->addAddress('dhawalchawla47@gmail.com');               // Name is optional
+    $mail->addAddress('@gmail.com');               // Name is optional
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Here is the subject';
     $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
